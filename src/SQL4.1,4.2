@@ -1,0 +1,17 @@
+4.1
+write a SQL statement to find all users’ family name is “Chan”
+
+SELECT * FROM Table A
+   WHERE UPPER(name) LIKE UPPER('％Chan') or  UPPER(name) LIKE UPPER('Chan%')
+
+
+
+4.2
+write a SQL statement to find all users’ family name is “Chan” and age > 20
+
+SELECT * FROM Table A JOIN Table B ON Table A.id=Table B.id;
+   WHERE Table B.age > 20 ANS
+   (UPPER(name) LIKE UPPER('％Chan') or UPPER(name) LIKE UPPER('Chan%'))
+   
+   
+  news 1
